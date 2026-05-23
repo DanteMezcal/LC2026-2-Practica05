@@ -24,8 +24,8 @@ En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integra
 
 + Carriche Arriaga Dante Raziel
     - No. de Cuenta: 32207461
-+ Integrante 2
-    - No. de Cuenta: 
++ Ayala Montiel María Fernanda
+    - No. de Cuenta: 321309347
 + Integrante 3
     - No. de Cuenta: 
 
