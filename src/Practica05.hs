@@ -70,5 +70,10 @@ apsubTList (t:ts) s = apsubT t s : apsubTList ts s
 
 --Funcion que devuelve un umg de una lista de termino, si es que lo hay
 unificaConj :: [Term] -> [Subst]
-unificaConj = undefined
+unificaConj [] = [[]]
+unificaConj [_] = [[]]
 
+unificaConj (t1:t2:ts) = do
+  s1 <- unifica t1 t2
+  s2 <- unificaConj (aplicarLista (t2:ts) s1)
+  return (compSus s1 s2)
